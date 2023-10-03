@@ -1,875 +1,760 @@
-
 .hifi-homepage {
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .hifi-homepage .div {
-    background-color: rgba(255, 255, 255, 1);
-    overflow: hidden;
-    background: linear-gradient(
-      180deg,
-      rgb(246, 126, 125) 0%,
-      rgb(250, 212, 192) 27.6%,
-      rgb(254, 233, 225) 46.88%,
-      rgb(100, 182, 172) 72.4%,
-      rgb(0, 109, 119) 94.27%
-    );
-    width: 1440px;
-    height: 4582px;
-    position: relative;
-  }
-  
-  .hifi-homepage .overlap {
-    position: absolute;
-    width: 1440px;
-    height: 1786px;
-    top: 2796px;
-    left: 0;
-  }
-  
-  .hifi-homepage .footer-section {
-    width: 1440px;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
-    padding: 96px 10px;
-    position: absolute;
-    top: 1358px;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .hifi-homepage .footer-container {
-    width: 1152px;
-    align-items: flex-end;
-    gap: 50px;
-    position: relative;
-    flex: 0 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .hifi-homepage .row {
-    align-items: flex-start;
-    gap: 208px;
-    display: flex;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .style {
-    position: relative;
-    width: 80px;
-    height: 75px;
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .logo {
-    display: flex;
-    align-items: flex-start;
-    gap: 4px;
-    padding: 12px 0px;
-    position: relative;
-    flex: 1;
-    flex-grow: 1;
-  }
-  
-  .hifi-homepage .container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 32px;
-    position: relative;
-    flex: 1;
-    flex-grow: 1;
-  }
-  
-  .hifi-homepage .column {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    position: relative;
-    flex: 1;
-    flex-grow: 1;
-  }
-  
-  .hifi-homepage .text-wrapper {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    text-decoration: underline;
-  }
-  
-  .hifi-homepage .text-wrapper-2 {
-    position: relative;
-    align-self: stretch;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .vector {
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    height: 1px;
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .row-2 {
-    align-items: flex-end;
-    gap: 220px;
-    display: flex;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .text-wrapper-3 {
-    position: relative;
-    flex: 1;
-    margin-top: -1px;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    color: #ffffff;
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    font-style: var(--paragraph-font-style);
-  }
-  
-  .hifi-homepage .meet-the-creators {
-    height: 652px;
-    top: 728px;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-  
-  .hifi-homepage .group {
-    position: relative;
-    width: 1234px;
-    height: 409px;
-    top: 122px;
-    left: 104px;
-  }
-  
-  .hifi-homepage .text-wrapper-4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 36px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .charlene-chen {
-    position: absolute;
-    width: 200px;
-    height: 253px;
-    top: 156px;
-    left: 0;
-  }
-  
-  .hifi-homepage .frame {
-    position: absolute;
-    width: 198px;
-    height: 198px;
-    top: 0;
-    left: 0;
-    background-color: #f2f2f2;
-    border-radius: 200px;
-    overflow: hidden;
-  }
-  
-  .hifi-homepage .image {
-    width: 198px;
-    height: 198px;
-    top: 0;
-    position: absolute;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .text-wrapper-5 {
-    position: absolute;
-    top: 226px;
-    left: 31px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .alyssa-topete {
-    position: absolute;
-    width: 201px;
-    height: 253px;
-    top: 156px;
-    left: 258px;
-  }
-  
-  .hifi-homepage .image-wrapper {
-    position: absolute;
-    width: 199px;
-    height: 198px;
-    top: 0;
-    left: 0;
-    background-color: #f2f2f2;
-    border-radius: 200px;
-    overflow: hidden;
-  }
-  
-  .hifi-homepage .img {
-    width: 199px;
-    height: 328px;
-    top: -38px;
-    position: absolute;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .text-wrapper-6 {
-    left: 34px;
-    position: absolute;
-    top: 226px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .ruhi-gandhi {
-    position: absolute;
-    width: 201px;
-    height: 253px;
-    top: 156px;
-    left: 517px;
-  }
-  
-  .hifi-homepage .frame-2 {
-    position: absolute;
-    width: 199px;
-    height: 198px;
-    top: 0;
-    left: 0;
-    border-radius: 200px;
-    background-image: url(./img/frame-4.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .hifi-homepage .text-wrapper-7 {
-    position: absolute;
-    top: 226px;
-    left: 42px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .sarah-chung {
-    position: absolute;
-    width: 200px;
-    height: 253px;
-    top: 156px;
-    left: 776px;
-  }
-  
-  .hifi-homepage .image-2 {
-    width: 198px;
-    height: 214px;
-    top: -16px;
-    position: absolute;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .text-wrapper-8 {
-    left: 39px;
-    position: absolute;
-    top: 226px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .veronica-wiedeman {
-    position: absolute;
-    width: 200px;
-    height: 253px;
-    top: 156px;
-    left: 1034px;
-  }
-  
-  .hifi-homepage .image-3 {
-    width: 198px;
-    height: 296px;
-    top: -22px;
-    position: absolute;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .text-wrapper-9 {
-    left: 5px;
-    position: absolute;
-    top: 226px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .style-2 {
-    position: absolute;
-    width: 1425px;
-    height: 899px;
-    top: 0;
-    left: 8px;
-  }
-  
-  .hifi-homepage .overlap-group-wrapper {
-    position: absolute;
-    width: 135px;
-    height: 291px;
-    top: 0;
-    left: 181px;
-    transform: rotate(-20deg);
-    box-shadow: 0px 3.22px 0px #00000080, 0px 6.43px 0px #00000080, 0px 9.65px 0px #00000080, 0px 14.47px 9.65px #00000066;
-  }
-  
-  .hifi-homepage .overlap-group {
-    position: relative;
-    height: 291px;
-  }
-  
-  .hifi-homepage .socialai-home-wrapper {
-    position: absolute;
-    width: 135px;
-    height: 291px;
-    top: 0;
-    left: 0;
-  }
-  
-  .hifi-homepage .socialai-home {
-    position: absolute;
-    width: 337px;
-    height: 249px;
-    top: 21px;
-    left: -101px;
-    transform: rotate(20deg);
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .group-2 {
-    position: absolute;
-    width: 36px;
-    height: 6px;
-    top: 5px;
-    left: 50px;
-  }
-  
-  .hifi-homepage .rectangle {
-    width: 6px;
-    left: 31px;
-    position: absolute;
-    height: 6px;
-    top: 0;
-    background-color: #000000;
-    border-radius: 20.09px;
-  }
-  
-  .hifi-homepage .rectangle-2 {
-    width: 29px;
-    left: 0;
-    position: absolute;
-    height: 6px;
-    top: 0;
-    background-color: #000000;
-    border-radius: 20.09px;
-  }
-  
-  .hifi-homepage .overlap-2 {
-    position: absolute;
-    width: 227px;
-    height: 554px;
-    top: -12px;
-    left: 377px;
-  }
-  
-  .hifi-homepage .overlap-wrapper {
-    position: absolute;
-    width: 135px;
-    height: 291px;
-    top: 248px;
-    left: 46px;
-    transform: rotate(-20deg);
-    box-shadow: 0px 3.22px 0px #00000080, 0px 6.43px 0px #00000080, 0px 9.65px 0px #00000080, 0px 14.47px 9.65px #00000066;
-  }
-  
-  .hifi-homepage .div-wrapper {
-    position: absolute;
-    width: 135px;
-    height: 291px;
-    top: 14px;
-    left: 46px;
-    transform: rotate(-20deg);
-    box-shadow: 0px 3.22px 0px #00000080, 0px 6.43px 0px #00000080, 0px 9.65px 0px #00000080, 0px 14.47px 9.65px #00000066;
-  }
-  
-  .hifi-homepage .overlap-3 {
-    position: absolute;
-    width: 227px;
-    height: 554px;
-    top: -12px;
-    left: 854px;
-  }
-  
-  .hifi-homepage .overlap-4 {
-    position: absolute;
-    width: 227px;
-    height: 554px;
-    top: -14px;
-    left: 611px;
-  }
-  
-  .hifi-homepage .group-3 {
-    position: absolute;
-    width: 135px;
-    height: 291px;
-    top: 234px;
-    left: 1134px;
-    transform: rotate(-20deg);
-    box-shadow: 0px 3.22px 0px #00000080, 0px 6.43px 0px #00000080, 0px 9.65px 0px #00000080, 0px 14.47px 9.65px #00000066;
-  }
-  
-  .hifi-homepage .header {
-    display: flex;
-    flex-direction: column;
-    width: 1440px;
-    align-items: center;
-    justify-content: center;
-    gap: 8.58px;
-    padding: 17.17px 0px;
-    position: absolute;
-    top: 33px;
-    left: 0;
-  }
-  
-  .hifi-homepage .header-nav-container {
-    display: flex;
-    width: 988.8px;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .menu-items {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 39.48px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .menu-item {
-    position: relative;
-    width: 66.09px;
-    height: 18.88px;
-  }
-  
-  .hifi-homepage .menu-item-2 {
-    position: absolute;
-    top: -1px;
-    left: 0;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .frame-wrapper {
-    display: flex;
-    width: 1440px;
-    align-items: center;
-    justify-content: space-around;
-    gap: 120px;
-    padding: 20px 0px;
-    position: absolute;
-    top: 196px;
-    left: 0;
-  }
-  
-  .hifi-homepage .frame-3 {
-    display: flex;
-    width: 1152px;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-  
-  .hifi-homepage .title-header {
-    gap: 39px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .title-contaner {
-    gap: 27px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .text-wrapper-10 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: var(--h1-header-font-family);
-    font-weight: var(--h1-header-font-weight);
-    color: #006d77;
-    font-size: var(--h1-header-font-size);
-    letter-spacing: var(--h1-header-letter-spacing);
-    line-height: var(--h1-header-line-height);
-    font-style: var(--h1-header-font-style);
-  }
-  
-  .hifi-homepage .p {
-    position: relative;
-    width: 378px;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    color: #000000;
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    font-style: var(--paragraph-font-style);
-  }
-  
-  .hifi-homepage .button {
-    display: inline-flex;
-    align-items: flex-start;
-    position: relative;
-    flex: 0 0 auto;
-    all: unset;
-    box-sizing: border-box;
-  }
-  
-  .hifi-homepage .highlighted {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 14px 20px;
-    position: relative;
-    flex: 0 0 auto;
-    background-color: #64b6ac;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .hifi-homepage .menu-item-3 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .devices {
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .iphone-pro {
-    position: relative;
-    width: 347.05px;
-    height: 680px;
-  }
-  
-  .hifi-homepage .why-section {
-    display: flex;
-    flex-direction: column;
-    width: 1440px;
-    height: 786px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 20px 10px;
-    position: absolute;
-    top: 1903px;
-    left: 0;
-  }
-  
-  .hifi-homepage .why-section-2 {
-    display: flex;
-    width: 1152px;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .why {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .hifi-homepage .text-wrapper-11 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: var(--sub-header-h2-font-family);
-    font-weight: var(--sub-header-h2-font-weight);
-    color: #000000;
-    font-size: var(--sub-header-h2-font-size);
-    letter-spacing: var(--sub-header-h2-letter-spacing);
-    line-height: var(--sub-header-h2-line-height);
-    font-style: var(--sub-header-h2-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-12 {
-    position: relative;
-    width: 406px;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    color: #000000;
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    font-style: var(--paragraph-font-style);
-  }
-  
-  .hifi-homepage .WEDO-gif {
-    position: relative;
-    width: 280px;
-    height: 603px;
-    object-fit: cover;
-  }
-  
-  .hifi-homepage .meet-the-app {
-    height: 704px;
-    top: 1096px;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-  
-  .hifi-homepage .lets-meet-app {
-    position: relative;
-    width: 1187px;
-    height: 628px;
-    top: 38px;
-    left: 67px;
-  }
-  
-  .hifi-homepage .text-wrapper-13 {
-    position: absolute;
-    top: 123px;
-    left: 772px;
-    font-family: var(--sub-header-h2-font-family);
-    font-weight: var(--sub-header-h2-font-weight);
-    color: #000000;
-    font-size: var(--sub-header-h2-font-size);
-    letter-spacing: var(--sub-header-h2-letter-spacing);
-    line-height: var(--sub-header-h2-line-height);
-    font-style: var(--sub-header-h2-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-14 {
-    position: absolute;
-    top: 228px;
-    left: 1015px;
-    font-family: "Nunito-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .hifi-homepage .text-wrapper-15 {
-    position: absolute;
-    top: 228px;
-    left: 781px;
-    font-family: var(--h-3-font-family);
-    font-weight: var(--h-3-font-weight);
-    color: #000000;
-    font-size: var(--h-3-font-size);
-    letter-spacing: var(--h-3-letter-spacing);
-    line-height: var(--h-3-line-height);
-    font-style: var(--h-3-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-16 {
-    position: absolute;
-    top: 369px;
-    left: 1015px;
-    font-family: var(--h-3-font-family);
-    font-weight: var(--h-3-font-weight);
-    color: #000000;
-    font-size: var(--h-3-font-size);
-    letter-spacing: var(--h-3-letter-spacing);
-    line-height: var(--h-3-line-height);
-    font-style: var(--h-3-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-17 {
-    position: absolute;
-    top: 369px;
-    left: 781px;
-    font-family: var(--h-3-font-family);
-    font-weight: var(--h-3-font-weight);
-    color: #000000;
-    font-size: var(--h-3-font-size);
-    letter-spacing: var(--h-3-letter-spacing);
-    line-height: var(--h-3-line-height);
-    font-style: var(--h-3-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-18 {
-    position: absolute;
-    width: 154px;
-    top: 263px;
-    left: 1015px;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    color: #000000;
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    font-style: var(--paragraph-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-19 {
-    position: absolute;
-    width: 154px;
-    top: 404px;
-    left: 781px;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    color: #000000;
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    font-style: var(--paragraph-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-20 {
-    position: absolute;
-    width: 154px;
-    top: 263px;
-    left: 781px;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    color: #000000;
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    font-style: var(--paragraph-font-style);
-  }
-  
-  .hifi-homepage .text-wrapper-21 {
-    position: absolute;
-    width: 154px;
-    top: 404px;
-    left: 1015px;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    color: #000000;
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    font-style: var(--paragraph-font-style);
-  }
-  
-  .hifi-homepage .group-4 {
-    position: absolute;
-    width: 582px;
-    height: 628px;
-    top: 0;
-    left: 0;
-  }
-  
-  .hifi-homepage .overlap-group-2 {
-    position: relative;
-    height: 628px;
-  }
-  
-  .hifi-homepage .your-houshold-tasks {
-    position: absolute;
-    width: 500px;
-    height: 584px;
-    top: 45px;
-    left: 0;
-  }
-  
-  .hifi-homepage .adding-new-tasks {
-    position: absolute;
-    width: 300px;
-    height: 428px;
-    top: 0;
-    left: 230px;
-  }
-  
-  .hifi-homepage .user {
-    position: absolute;
-    width: 235px;
-    height: 235px;
-    top: 350px;
-    left: 347px;
-    background-image: url(./img/ellipse-21.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.hifi-homepage .div {
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgb(246, 126, 125) 0%,
+    rgb(250, 212, 192) 27.6%,
+    rgb(254, 233, 225) 46.88%,
+    rgb(100, 182, 172) 72.4%,
+    rgb(0, 109, 119) 94.27%
+  );
+  width: 1440px;
+  height: 4582px;
+  position: relative;
+}
+
+.hifi-homepage .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 1058px;
+  top: 3524px;
+  left: 0;
+}
+
+.hifi-homepage .footer {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 96px 10px;
+  position: absolute;
+  top: 630px;
+  left: 0;
+  background-color: transparent;
+}
+
+.hifi-homepage .footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 1152px;
+  align-items: flex-end;
+  gap: 50px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .row {
+  align-items: flex-start;
+  gap: 208px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .style {
+  position: relative;
+  width: 80px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.hifi-homepage .logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 12px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.hifi-homepage .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 32px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.hifi-homepage .column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.hifi-homepage .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.hifi-homepage .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .vector {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.hifi-homepage .row-2 {
+  align-items: flex-end;
+  gap: 220px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #ffffff;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.hifi-homepage .meet-the-creators {
+  height: 652px;
+  top: 0;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.hifi-homepage .group {
+  position: relative;
+  width: 1234px;
+  height: 409px;
+  top: 122px;
+  left: 104px;
+}
+
+.hifi-homepage .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .charlene-chen {
+  position: absolute;
+  width: 200px;
+  height: 253px;
+  top: 156px;
+  left: 0;
+}
+
+.hifi-homepage .frame {
+  position: absolute;
+  width: 198px;
+  height: 198px;
+  top: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  border-radius: 200px;
+  overflow: hidden;
+}
+
+.hifi-homepage .image {
+  width: 198px;
+  height: 198px;
+  top: 0;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.hifi-homepage .text-wrapper-5 {
+  position: absolute;
+  top: 226px;
+  left: 31px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .alyssa-topete {
+  position: absolute;
+  width: 201px;
+  height: 253px;
+  top: 156px;
+  left: 258px;
+}
+
+.hifi-homepage .image-wrapper {
+  position: absolute;
+  width: 199px;
+  height: 198px;
+  top: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  border-radius: 200px;
+  overflow: hidden;
+}
+
+.hifi-homepage .img {
+  width: 199px;
+  height: 328px;
+  top: -38px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.hifi-homepage .text-wrapper-6 {
+  left: 34px;
+  position: absolute;
+  top: 226px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .ruhi-gandhi {
+  position: absolute;
+  width: 201px;
+  height: 253px;
+  top: 156px;
+  left: 517px;
+}
+
+.hifi-homepage .frame-2 {
+  position: absolute;
+  width: 199px;
+  height: 198px;
+  top: 0;
+  left: 0;
+  border-radius: 200px;
+  background-image: url(./img/frame-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.hifi-homepage .text-wrapper-7 {
+  position: absolute;
+  top: 226px;
+  left: 42px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .sarah-chung {
+  position: absolute;
+  width: 200px;
+  height: 253px;
+  top: 156px;
+  left: 776px;
+}
+
+.hifi-homepage .image-2 {
+  width: 198px;
+  height: 214px;
+  top: -16px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.hifi-homepage .text-wrapper-8 {
+  left: 39px;
+  position: absolute;
+  top: 226px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .veronica-wiedeman {
+  position: absolute;
+  width: 200px;
+  height: 253px;
+  top: 156px;
+  left: 1034px;
+}
+
+.hifi-homepage .image-3 {
+  width: 198px;
+  height: 296px;
+  top: -22px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.hifi-homepage .text-wrapper-9 {
+  left: 5px;
+  position: absolute;
+  top: 226px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .header {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+  gap: 8.58px;
+  padding: 17.17px 0px;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  background-color: transparent;
+}
+
+.hifi-homepage .header-nav-container {
+  display: flex;
+  width: 988.8px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .menu-items {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 39.48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .menu-item {
+  position: relative;
+  width: 66.09px;
+  height: 18.88px;
+}
+
+.hifi-homepage .menu-item-2 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .title {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 120px;
+  padding: 20px 0px;
+  position: absolute;
+  top: 196px;
+  left: 0;
+}
+
+.hifi-homepage .frame-3 {
+  display: flex;
+  width: 1152px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hifi-homepage .title-header {
+  gap: 39px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .title-contaner {
+  gap: 27px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--h1-header-font-family);
+  font-weight: var(--h1-header-font-weight);
+  color: #006d77;
+  font-size: var(--h1-header-font-size);
+  letter-spacing: var(--h1-header-letter-spacing);
+  line-height: var(--h1-header-line-height);
+  font-style: var(--h1-header-font-style);
+}
+
+.hifi-homepage .p {
+  position: relative;
+  width: 378px;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.hifi-homepage .button {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.hifi-homepage .highlighted {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #64b6ac;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hifi-homepage .menu-item-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .devices {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .iphone-pro {
+  position: relative;
+  width: 347.05px;
+  height: 680px;
+}
+
+.hifi-homepage .why-section {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 786px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 10px;
+  position: absolute;
+  top: 1903px;
+  left: 0;
+}
+
+.hifi-homepage .why-section-2 {
+  display: flex;
+  width: 1152px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .why {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hifi-homepage .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--sub-header-h2-font-family);
+  font-weight: var(--sub-header-h2-font-weight);
+  color: #000000;
+  font-size: var(--sub-header-h2-font-size);
+  letter-spacing: var(--sub-header-h2-letter-spacing);
+  line-height: var(--sub-header-h2-line-height);
+  font-style: var(--sub-header-h2-font-style);
+}
+
+.hifi-homepage .text-wrapper-12 {
+  position: relative;
+  width: 406px;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.hifi-homepage .WEDO-gif {
+  position: relative;
+  width: 280px;
+  height: 603px;
+  object-fit: cover;
+}
+
+.hifi-homepage .meet-the-app {
+  height: 704px;
+  top: 1096px;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.hifi-homepage .lets-meet-app {
+  position: relative;
+  width: 1187px;
+  height: 628px;
+  top: 38px;
+  left: 67px;
+}
+
+.hifi-homepage .text-wrapper-13 {
+  position: absolute;
+  top: 123px;
+  left: 772px;
+  font-family: var(--sub-header-h2-font-family);
+  font-weight: var(--sub-header-h2-font-weight);
+  color: #000000;
+  font-size: var(--sub-header-h2-font-size);
+  letter-spacing: var(--sub-header-h2-letter-spacing);
+  line-height: var(--sub-header-h2-line-height);
+  font-style: var(--sub-header-h2-font-style);
+}
+
+.hifi-homepage .text-wrapper-14 {
+  position: absolute;
+  top: 228px;
+  left: 1015px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hifi-homepage .text-wrapper-15 {
+  position: absolute;
+  top: 228px;
+  left: 781px;
+  font-family: var(--h-3-font-family);
+  font-weight: var(--h-3-font-weight);
+  color: #000000;
+  font-size: var(--h-3-font-size);
+  letter-spacing: var(--h-3-letter-spacing);
+  line-height: var(--h-3-line-height);
+  font-style: var(--h-3-font-style);
+}
+
+.hifi-homepage .text-wrapper-16 {
+  position: absolute;
+  top: 369px;
+  left: 1015px;
+  font-family: var(--h-3-font-family);
+  font-weight: var(--h-3-font-weight);
+  color: #000000;
+  font-size: var(--h-3-font-size);
+  letter-spacing: var(--h-3-letter-spacing);
+  line-height: var(--h-3-line-height);
+  font-style: var(--h-3-font-style);
+}
+
+.hifi-homepage .text-wrapper-17 {
+  position: absolute;
+  top: 369px;
+  left: 781px;
+  font-family: var(--h-3-font-family);
+  font-weight: var(--h-3-font-weight);
+  color: #000000;
+  font-size: var(--h-3-font-size);
+  letter-spacing: var(--h-3-letter-spacing);
+  line-height: var(--h-3-line-height);
+  font-style: var(--h-3-font-style);
+}
+
+.hifi-homepage .text-wrapper-18 {
+  position: absolute;
+  width: 154px;
+  top: 263px;
+  left: 1015px;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.hifi-homepage .text-wrapper-19 {
+  position: absolute;
+  width: 154px;
+  top: 404px;
+  left: 781px;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.hifi-homepage .text-wrapper-20 {
+  position: absolute;
+  width: 154px;
+  top: 263px;
+  left: 781px;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.hifi-homepage .text-wrapper-21 {
+  position: absolute;
+  width: 154px;
+  top: 404px;
+  left: 1015px;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.hifi-homepage .overlap-group-wrapper {
+  position: absolute;
+  width: 582px;
+  height: 628px;
+  top: 0;
+  left: 0;
+}
+
+.hifi-homepage .overlap-group {
+  position: relative;
+  height: 628px;
+}
+
+.hifi-homepage .your-houshold-tasks {
+  position: absolute;
+  width: 500px;
+  height: 584px;
+  top: 45px;
+  left: 0;
+}
+
+.hifi-homepage .adding-new-tasks {
+  position: absolute;
+  width: 300px;
+  height: 428px;
+  top: 0;
+  left: 230px;
+}
+
+.hifi-homepage .user {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  top: 350px;
+  left: 347px;
+  background-image: url(./img/ellipse-21.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.hifi-homepage .mobile-mockup {
+  position: absolute;
+  width: 1425px;
+  height: 534px;
+  top: 2840px;
+  left: 7px;
+}
